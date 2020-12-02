@@ -1,9 +1,6 @@
-import "./App.css";
-import CrossAnim from "./CrossAnim";
-import styled from "styled-components";
-import Container from "./Context/Container";
-import { Context } from "./Context/Context";
 import React, { useContext } from "react";
+
+import { Context } from "./Context/Context";
 
 const Buttons = () => {
   const context = useContext(Context);

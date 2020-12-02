@@ -9,25 +9,14 @@ const Container = (props) => {
   const [contactActive, setContactActive] = useState(false);
   const [formActive, setFormActive] = useState(false);
   const [adminActive, setAdminActive] = useState(false);
-  // const [menuOpen, setMenuOpen] = useState(false);
-  // const [feedOpen, setFeedOpen] = useState(true);
-  // const [roasterOpen, setRoasterOpen] = useState(false);
   const [infoOpen, setInfoOpen] = useState(false);
-  // Data Arrays
 
   return (
     //Pass the states and setState functions through the context.provider. Wrap around the children.
     <Context.Provider
       value={{
-        // menuOpen,
-        // setMenuOpen,
-        // feedOpen,
-        // setFeedOpen,
-        // roasterOpen,
-        // setRoasterOpen,
         infoOpen,
         setInfoOpen,
-
         feedActive,
         setFeedActive,
         rosterActive,
