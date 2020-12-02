@@ -1,8 +1,6 @@
 import React, { useContext, useEffect } from "react";
 import styled from "styled-components";
 import { Context } from "./Context/Context";
-// import { gsap, TimelineMax } from "gsap";
-// import { TimelineMax, CSSPlugin } from "gsap/all";
 
 import BG001 from "./graphics/BG01.jpg";
 import BG002 from "./graphics/BG02.jpg";
@@ -54,7 +52,7 @@ const Div5 = styled(MasterDiv)`
 `;
 
 const CrossAnim = () => {
-  let W = window.innerWidth;
+  // let W = window.innerWidth;
   const gsap = window.gsap;
 
   const tl = gsap.timeline();
